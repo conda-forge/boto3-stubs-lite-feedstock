@@ -19,10 +19,6 @@ requirements:
     - python >=3.6
   run:
     - python >=3.6
-    # Note: botocore is also an implicit dependency via mypy_boto3_* → boto3 → botocore,
-    # so the following line is redundant.
-    - botocore
-    - types-s3transfer
 
 outputs:
   - name: boto3-stubs-lite
@@ -32,8 +28,9 @@ outputs:
         - python -m pip install . -vv
     requirements:
       run:
-        - boto3
-        - typing_extensions
+        - botocore-stubs
+        - types-s3transfer
+        - typing-extensions >=4.1.0
     test:
       commands:
         - pip check
