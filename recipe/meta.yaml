@@ -11,15 +11,15 @@ source:
   sha256: c65069cbb0096368c6eb022891a2d27535fb1e1f9cdb47d704cf1dfca4622479
 
 build:
-  number: 0
+  number: 1
   noarch: python
 requirements:
   host:
     - pip
     - setuptools
-    - python >=3.6
+    - python {{ python_min }}
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 outputs:
   - name: boto3-stubs-lite
@@ -69,6 +69,7 @@ outputs:
         - pip check
       requires:
         - pip
+        - python {{ python_min }}
 
 about:
   home: https://github.com/vemel/mypy_boto3_builder
