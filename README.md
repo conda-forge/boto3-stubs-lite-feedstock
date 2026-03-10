@@ -7,7 +7,7 @@ Home: https://github.com/vemel/mypy_boto3_builder
 
 Package license: MIT
 
-Summary: Type annotations for boto3 1.42.63, generated with mypy-boto3-builder
+Summary: Type annotations for boto3 1.42.64, generated with mypy-boto3-builder
 
 Development: https://github.com/vemel/mypy_boto3_builder
 
@@ -17,11 +17,10 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16774&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/boto3-stubs-lite-feedstock?branchName=main">
-      </a>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
     </td>
   </tr>
 </table>
