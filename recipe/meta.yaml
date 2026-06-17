@@ -1,5 +1,5 @@
 {% set name = "boto3-stubs-lite" %}
-{% set version = "1.43.30" %}
+{% set version = "1.43.31" %}
 {% set lib_version = version.split(".post")[0] %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/4a/9e/558acac24efaaba84f73d907591a36c72ef38e2ef72d8378df2f5adff744/boto3_stubs_lite-{{ version }}.tar.gz
-  sha256: 18013165dd71a445091bc1b05d41b892ee68d963777a56e1646474333e6bab60
+  url: https://files.pythonhosted.org/packages/1e/9c/12b6d4f87e118f6eda2efd3654b5caecf7211d6bc655acea6e92be4cef92/boto3_stubs_lite-{{ version }}.tar.gz
+  sha256: 976e5a7a8c22afbc9451b4b728599c19e86e3cb62c75a810757bb85c9b7f33d9
 
 build:
   number: 0
